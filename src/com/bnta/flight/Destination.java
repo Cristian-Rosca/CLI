@@ -1,7 +1,7 @@
-package Flights;
+package com.bnta.flight;
 
 
-public enum Destinations {
+public enum Destination {
         LONDON,
         BERLIN,
         CANADA

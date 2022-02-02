@@ -1,4 +1,4 @@
-package JustVibingAirport;
+package com.bnta.airport;
 
 public class JustVibingAirport {
     private String airportName;

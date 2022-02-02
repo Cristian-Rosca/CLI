@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c2b91d1-fcef-4daf-984b-1f9892c50713" name="Changes" comment="Added .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/Flights/FlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flights/Flights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greeting.java" afterDir="false" />
+    <list default="true" id="6c2b91d1-fcef-4daf-984b-1f9892c50713" name="Changes" comment="Added flight objects&#10;Create passenger added">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/Greeting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/airport/Airlines.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/airport/JustVibingAirport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/bookFlight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/flight/Destination.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/flight/Flight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/flight/FlightService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/passenger/PassengerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/passenger/Passengers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/passenger/TicketType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bnta/bookFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bnta/passenger/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bnta/passenger/PassengerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flights/Destinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/flight/Destination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flights/FlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/flight/FlightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flights/Flights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/flight/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JustVibingAirport/Airlines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/airport/Airlines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JustVibingAirport/JustVibingAirport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/airport/JustVibingAirport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passengers/PassengerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passengers/Passengers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/passenger/Passengers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passengers/TicketType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/passenger/TicketType.java" afterDir="false" />
     </list>
-    <list id="f4e24c98-e809-4cac-8e20-7270ab77c65c" name="Changes by alimaa" comment="" />
-    <list id="ed174bf9-4b67-464b-a382-8432743860c3" name="Changes by michellerafols" comment="" />
+    <list id="3b071569-6745-4a3a-9f82-129ab929270d" name="Changes by alimaa" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Passengers/TicketType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/passenger/TicketType.java" afterDir="false" />
+    </list>
+    <list id="ed174bf9-4b67-464b-a382-8432743860c3" name="Changes by michellerafols" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/bnta/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +43,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/com/bnta/passenger/TicketType.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="2" end1="6" start2="2" end2="6" changelist="3b071569-6745-4a3a-9f82-129ab929270d" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,9 +71,45 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CodeWithMe" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bnta.Main" />
+      <module name="CLI Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bnta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookFlight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bnta.bookFlight" />
+      <module name="CLI Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bnta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.bookFlight" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643795280221</updated>
-      <workItem from="1643795281858" duration="5698000" />
+      <workItem from="1643795281858" duration="16978000" />
     </task>
     <task id="LOCAL-00001" summary="Added .gitignore">
       <created>1643796468067</created>
@@ -58,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643796468067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added classes and models">
+      <created>1643802636780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643802636780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +154,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .gitignore" />
+    <MESSAGE value="Added classes and models" />
+    <MESSAGE value="Added flight objects&#10;Create passenger" />
+    <MESSAGE value="Added flight objects&#10;Create passenger added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added flight objects&#10;Create passenger added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bnta/Main.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bnta/Main.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bnta/Main.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

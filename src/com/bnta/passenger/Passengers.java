@@ -1,4 +1,4 @@
-package Passengers;
+package com.bnta.passenger;
 
 import java.util.Objects;
 
@@ -21,6 +21,19 @@ public class Passengers {
         this.email = email;
         this.ticketType = ticketType;
     }
+
+    // Created constructor where we can create passenger without TicketType enum input
+    public Passengers(String firstName,
+                      String lastName,
+                      String passportId,
+                      String email
+    ) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.passportId = passportId;
+        this.email = email;
+    }
+
 
     public String getFirstName() {
         return firstName;
@@ -64,7 +77,7 @@ public class Passengers {
 
     @Override
     public String toString() {
-        return "Passengers{" +
+        return "com.bnta.Passengers{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", passportId='" + passportId + '\'' +
@@ -73,7 +86,7 @@ public class Passengers {
                 '}';
     }
 
-  @Override
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;

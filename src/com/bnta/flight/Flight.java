@@ -1,28 +1,30 @@
-package Flights;
+package com.bnta.flight;
 
-import Passengers.Passengers;
+import com.bnta.passenger.Passengers;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-public class Flights {
-    private Destinations destination;
+public class Flight {
+    private Destination destination;
     private int maxCapacity;
-    private Passengers [] passengers;
+    private Passengers[] passengers;
 
-    public Flights(Destinations destination,
-                   int maxCapacity,
-                   Passengers[] passengers) {
+    public Flight(Destination destination,
+                  int maxCapacity) {
         this.destination = destination;
         this.maxCapacity = maxCapacity;
-        this.passengers = passengers;
+        this.passengers = new Passengers[maxCapacity];
     }
 
-    public Destinations getDestination() {
+
+
+
+    public Destination getDestination() {
         return destination;
     }
 
-    public void setDestination(Destinations destination) {
+    public void setDestination(Destination destination) {
         this.destination = destination;
     }
 
@@ -46,7 +48,7 @@ public class Flights {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Flights flights = (Flights) o;
+        Flight flights = (Flight) o;
         return maxCapacity == flights.maxCapacity && destination == flights.destination && Arrays.equals(passengers, flights.passengers);
     }
 
@@ -59,7 +61,7 @@ public class Flights {
 
     @Override
     public String toString() {
-        return "Flights{" +
+        return "com.bnta.Flights{" +
                 "destination=" + destination +
                 ", maxCapacity=" + maxCapacity +
                 ", passengers=" + Arrays.toString(passengers) +
