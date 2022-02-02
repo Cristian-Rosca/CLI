@@ -2,6 +2,8 @@ package com.bnta;
 
 import com.bnta.flight.Destination;
 import com.bnta.flight.Flight;
+import com.bnta.flight.FlightService;
+import com.bnta.passenger.EmailValidator;
 import com.bnta.passenger.Passengers;
 import com.bnta.passenger.TicketType;
 
@@ -56,18 +58,32 @@ public class Main {
         // Used to see created passenger details (won't be published in actual code)
         System.out.println(passengerA);
 
+        FlightService flightService = new FlightService();
 
-    }
-
-
-    public void bookFLight () {
-        System.out.println("Would you like to see our destinations? (Type 'Y'/'N')");
-        Scanner scanner = new Scanner(System.in);
-        String answer = scanner.nextLine().toLowerCase(Locale.ROOT);
+//        String answer = scanner.nextLine();
+        System.out.println("Would you like to see our destinations? (Type 'y'/'n')");
+        Scanner scanner2 = new Scanner(System.in);
+        String answer = scanner2.nextLine();
 
         if (answer.equals("y")) {
-            System.out.println("Our destinations are: Canada, Berlin, and London." +
-                    "Which destination would you like to go?");
+            System.out.println("Our destinations are: 1) Canada, 2) Berlin, and 3) London." +
+                    "Which destination would you like to go? Type '1', '2' or '3'to make selection");
+                    int choiceDestination = scanner.nextInt();
+                    Flight flightChoice = canada;
+                    if (choiceDestination == 1) {
+                        flightService.addPassenger(passengerA, canada);;
+                    }
+                    else if (choiceDestination == 2) {
+                        flightService.addPassenger(passengerA, berlin);;
+                    }
+                    else if (choiceDestination == 3) {
+                        flightService.addPassenger(passengerA, london);;
+                    }
+
+            System.out.println(canada);
+            System.out.println(berlin);
+            System.out.println(london);
+
         }
         else if (answer.equals("n")){
             System.out.println("Thank you for using our service. Come back next time.");
@@ -77,9 +93,17 @@ public class Main {
         }
 
 
+    }
+
+
+
+
+
+
 
 
     }
 
 
-}
+
+
