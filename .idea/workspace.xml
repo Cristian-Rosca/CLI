@@ -1,22 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2b91d1-fcef-4daf-984b-1f9892c50713" name="Changes" comment="added method to scan array for space to add Passenger&#10;added method to add Passenger to selected flight">
-      <change afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/passenger/EmailValidator.class" afterDir="false" />
+    <list default="true" id="6c2b91d1-fcef-4daf-984b-1f9892c50713" name="Changes" comment="final version of project from presentation &#10;Testing done &#10;Layout and organisation complete">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bnta/flight/FlightServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/CLI-Project-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bnta/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bnta/passenger/TicketType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bnta/flight/FlightServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/bookFlight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/bookFlight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/flight/FlightService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/flight/FlightService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bnta/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bnta/bookFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/bookFlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bnta/passenger/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/passenger/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/Greeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/airport/Airlines.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/airport/JustVibingAirport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/bookFlight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bnta/bookFlight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/flight/Destination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bnta/flight/Destination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/flight/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bnta/flight/Flight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/flight/FlightService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bnta/flight/FlightService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/passenger/EmailValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bnta/passenger/EmailValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/passenger/PassengerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/passenger/Passengers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bnta/passenger/Passengers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLI Project/com/bnta/passenger/TicketType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnta/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/airport/Airlines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/airport/JustVibingAirport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/bookFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnta/bookFlight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/flight/Destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnta/flight/Destination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/flight/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnta/flight/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/flight/FlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnta/flight/FlightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/passenger/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnta/passenger/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/passenger/PassengerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/passenger/Passengers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnta/passenger/Passengers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/passenger/TicketType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnta/passenger/TicketType.java" afterDir="false" />
     </list>
-    <list id="669fc24a-1111-4ede-98f0-de9fa63b9a6a" name="Changes by alimaa" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/bnta/bookFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/bookFlight.java" afterDir="false" />
-    </list>
-    <list id="ed174bf9-4b67-464b-a382-8432743860c3" name="Changes by michellerafols" comment="Changes by michellerafols">
-      <change beforePath="$PROJECT_DIR$/src/com/bnta/bookFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/bookFlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bnta/flight/FlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bnta/flight/FlightService.java" afterDir="false" />
+    <list id="9be1f914-5cdd-413b-8c54-a89c4ac1e129" name="Changes by shirhan" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/bnta/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnta/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +68,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,11 +76,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/com/bnta/bookFlight.java">
+    <file path="$PROJECT_DIR$/src/main/java/com/bnta/Main.java">
       <ranges>
-        <range start1="6" end1="7" start2="6" end2="8" changelist="669fc24a-1111-4ede-98f0-de9fa63b9a6a" />
-        <range start1="15" end1="15" start2="16" end2="18" changelist="ed174bf9-4b67-464b-a382-8432743860c3" />
-        <range start1="24" end1="24" start2="27" end2="29" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="9" end1="9" start2="9" end2="10" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="13" end1="14" start2="14" end2="15" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="19" end1="20" start2="20" end2="21" changelist="9be1f914-5cdd-413b-8c54-a89c4ac1e129" />
+        <range start1="31" end1="31" start2="32" end2="34" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="39" end1="40" start2="42" end2="43" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="47" end1="48" start2="50" end2="51" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="57" end1="59" start2="60" end2="64" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="65" end1="66" start2="70" end2="71" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="68" end1="81" start2="73" end2="106" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="82" end1="85" start2="107" end2="107" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="86" end1="88" start2="108" end2="109" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="89" end1="91" start2="110" end2="111" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
+        <range start1="98" end1="105" start2="118" end2="119" changelist="6c2b91d1-fcef-4daf-984b-1f9892c50713" />
       </ranges>
     </file>
   </component>
@@ -58,8 +109,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CodeWithMe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.bnta.flight" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -88,9 +149,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FlightServiceTest.addPassengerWithDifferentDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CLI Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bnta.flight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bnta.flight" />
+      <option name="MAIN_CLASS_NAME" value="com.bnta.flight.FlightServiceTest" />
+      <option name="METHOD_NAME" value="addPassengerWithDifferentDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightServiceTest.addingPassengertoFlightArrayOfPassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CLI Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bnta.flight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bnta.flight" />
+      <option name="MAIN_CLASS_NAME" value="com.bnta.flight.FlightServiceTest" />
+      <option name="METHOD_NAME" value="addingPassengertoFlightArrayOfPassenger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FlightServiceTest.addingPassengertoFlightArrayOfPassenger" />
+        <item itemvalue="JUnit.FlightServiceTest.addPassengerWithDifferentDetails" />
         <item itemvalue="Application.bookFlight" />
       </list>
     </recent_temporary>
@@ -103,7 +198,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643795280221</updated>
-      <workItem from="1643795281858" duration="26108000" />
+      <workItem from="1643795281858" duration="38784000" />
     </task>
     <task id="LOCAL-00001" summary="Added .gitignore">
       <created>1643796468067</created>
@@ -142,10 +237,19 @@
     <MESSAGE value="Added flight objects&#10;Create passenger" />
     <MESSAGE value="Added flight objects&#10;Create passenger added" />
     <MESSAGE value="added method to scan array for space to add Passenger&#10;added method to add Passenger to selected flight" />
-    <option name="LAST_COMMIT_MESSAGE" value="added method to scan array for space to add Passenger&#10;added method to add Passenger to selected flight" />
+    <MESSAGE value="final version of project from presentation &#10;Testing done &#10;Layout and organisation complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version of project from presentation &#10;Testing done &#10;Layout and organisation complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CLI_Project$FlightServiceTest_addPassengerWithDifferentDetails.ic" NAME="FlightServiceTest.addPassengerWithDifferentDetails Coverage Results" MODIFIED="1643897092845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bnta.flight.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CLI_Project$FlightServiceTest_addPassengerToTheFlight.ic" NAME="FlightServiceTest.addPassengerToTheFlight Coverage Results" MODIFIED="1643896666387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bnta.flight.*</FILTER>
+    </SUITE>
   </component>
 </project>
